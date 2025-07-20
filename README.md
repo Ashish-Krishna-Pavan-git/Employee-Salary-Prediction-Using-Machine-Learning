@@ -24,7 +24,8 @@ The target variable classifies income as `>50K` or `<=50K`.
 A key challenge addressed was the significant **class imbalance** in the dataset.
 
 ---
-
+Caution: Do not run all cells in notebook because last cell needed to to be stopped manually, to using the application running first nine cells are enough for application to run to stop application teriminate cell 9 and execute cell 10
+---
 ## 🧱 Project Structure
 
 ```plaintext
@@ -80,7 +81,11 @@ To set up and run this project locally:
 ## 🚀 How to Run the Application
 
 1. **Run the Jupyter Notebook:**
+--
+##
+***Alert: Do not run all cells because last cell needed to to be stopped manually after using the application***
 
+   
    Open `salary_prediction_model.ipynb` in Jupyter Notebook or VS Code and run all cells.  
    This will:
    - Clean and preprocess data
@@ -88,7 +93,7 @@ To set up and run this project locally:
    - Save pipelines to `Models/`
    - Generate model evaluation CSV in `Assets/`
 
-2. **Launch the Streamlit Web App:**
+3. **Launch the Streamlit Web App:**
    In your terminal, run:
    ```bash
    streamlit run app.py
